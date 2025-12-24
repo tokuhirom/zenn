@@ -1,9 +1,11 @@
 title: "さくらのクラウドのモニタリングスイートにotelcolで送信する本"
-summary: ""
-topics: []
+summary: "モニタリングスイートにotelcolから送信する方法について解説します"
+type: "tech"
+topics: ["さくらのクラウド"]
 published: false
 price: 0 # 有料の場合200〜5000
 # 本に含めるチャプターを順番に並べましょう
 chapters:
-  - example1
+  - intro
+  - logs-docker
   - example2
