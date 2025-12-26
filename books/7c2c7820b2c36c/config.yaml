@@ -1,5 +1,7 @@
 title: "さくらのクラウドのモニタリングスイートにotelcolで送信する本"
-summary: "モニタリングスイートにotelcolから送信する方法について解説します"
+summary: |
+  モニタリングスイートにotelcolから送信する方法について解説します
+  サンプルコードは https://github.com/tokuhirom/monitoring-suite-otelcol-sample にあります｡
 type: "tech"
 topics: ["さくらのクラウド"]
 published: true
