@@ -4,6 +4,8 @@ title: "はじめに"
 
 本書は､さくらのクラウドのモニタリングスイートに [OpenTelemetry Collector（otelcol）](https://opentelemetry.io/docs/collector/) でログ･メトリクスを送信するため設定ファイルのサンプル集です｡
 
+サンプルコードは https://github.com/tokuhirom/monitoring-suite-otelcol-sample にて公開されており､すぐに手元で動作確認できます｡
+
 ## 免責
 
 本書の執筆は個人の活動として行われているものであり､さくらインターネットが責任を負うものではありません｡

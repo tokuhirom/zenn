@@ -8,11 +8,19 @@ nginx のアクセスログを､さくらのクラウドのモニタリング�
 
 `log_format` の設定を行い､JSON 形式でログを出力することにより､モニタリングスイートで扱いやすくすることが出来ます｡`http_latency_sec` 等のフィールド名は､モニタリングスイートで予約されている名前です｡マニュアルの [ログの構造化](https://manual.sakura.ad.jp/cloud/appliance/monitoring-suite/about.html#monitoring-suite-log-structure) セクションにまとまっています｡`http_latency_sec`, `http_request_method` などの､モニタリングスイート側で定義されているフィールドを送信することで､扱いやすくなります｡
 
-https://github.com/tokuhirom/monitoring-suite-otelcol-sample/blob/main/docs/logs-nginx/nginx.conf
+https://github.com/tokuhirom/monitoring-suite-otelcol-sample/blob/main/logs-nginx/nginx.conf
 
 ## otelcol の設定
 
-https://github.com/tokuhirom/monitoring-suite-otelcol-sample/blob/main/docs/logs-nginx/otelcol-config.yaml
+https://github.com/tokuhirom/monitoring-suite-otelcol-sample/blob/main/logs-nginx/otelcol-config.yaml
+
+## 動作確認方法
+
+```sh
+git clone git@github.com:tokuhirom/monitoring-suite-otelcol-sample.git
+cd monitoring-suite-otelcol-sample/logs-nginx/
+dotenv -f path/to/.env run docker compose up
+```
 
 ## 実行結果
 

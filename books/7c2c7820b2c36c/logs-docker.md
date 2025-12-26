@@ -6,12 +6,14 @@ Docker の json ログを､さくらのクラウドのモニタリングスイ�
 
 ## otelcol 設定例
 
-https://github.com/tokuhirom/monitoring-suite-otelcol-sample/blob/main/docs/logs-docker/otelcol-config.yaml
+https://github.com/tokuhirom/monitoring-suite-otelcol-sample/blob/main/logs-docker/otelcol-config.yaml
 
 ## 実行
 
 ```sh
-dotenv -f ../.env run docker compose up
+git clone git@github.com:tokuhirom/monitoring-suite-otelcol-sample.git
+cd monitoring-suite-otelcol-sample/logs-docker/
+dotenv -f path/to/.env run docker compose up
 ```
 
 ## 実行結果

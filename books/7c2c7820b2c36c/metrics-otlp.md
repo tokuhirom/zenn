@@ -10,14 +10,16 @@ OTLP を使ってメトリクスを送信するサンプルです｡
 
 以下のように設定します｡OTLP のポートで受信したメトリクスデータは､モニタリングスイートに送信されます｡
 
-https://github.com/tokuhirom/monitoring-suite-otelcol-sample/blob/main/docs/metrics-otlp/otelcol-config.yaml
+https://github.com/tokuhirom/monitoring-suite-otelcol-sample/blob/main/metrics-otlp/otelcol-config.yaml
 
 ## 実行方法
 
 docs/metrics-otlp/ ディレクトリで､以下のようにして実行します｡
 
 ```sh
-dotenv -f ../.env run docker compose up
+git clone git@github.com:tokuhirom/monitoring-suite-otelcol-sample.git
+cd monitoring-suite-otelcol-sample/metrics-otlp/
+dotenv -f path/to/.env run docker compose up
 ```
 
 ## 出力例
