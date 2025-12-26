@@ -2,7 +2,7 @@ title: "さくらのクラウドのモニタリングスイートにotelcolで�
 summary: "モニタリングスイートにotelcolから送信する方法について解説します"
 type: "tech"
 topics: ["さくらのクラウド"]
-published: false
+published: true
 price: 0 # 有料の場合200〜5000
 # 本に含めるチャプターを順番に並べましょう
 chapters:
