@@ -3,7 +3,7 @@ title: "さくらのクラウド × Ansible: モダンなInventory Pluginで快�
 emoji: "📚"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["さくらのクラウド", "cloud"]
-published: false
+published: true
 ---
 
 近年ではコンテナをデプロイしてアプリケーションを作ることが多いですが､ansible でプロビジョニングしなくてはいけないケースもままあります｡
