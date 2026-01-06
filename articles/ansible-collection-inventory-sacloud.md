@@ -51,5 +51,18 @@ ansible-inventory -i inventory.yml --list -y
 
 API token は `SAKURA_ACCESS_TOKEN`, `SAKURA_ACCESS_TOKEN_SECRET` という環境変数で渡すことも可能です｡
 
+## 応用的な使い方
 
+`ansible_host` を設定したい場合｡｡例えば､踏み台サーバーの場合だけ eth0 の IP アドレスを使って､それ以外のサーバーでは eth1 の IP アドレスを使いたい､なんて場合でも compose 機能で簡単に書けます｡
+
+```
+plugin: tokuhirom.sacloud.sacloud
+zones:
+  - tk1b
+compose:
+  # ホスト名が 'fumidai.' で始まる場合は1番目のIPアドレスを使用、それ以外は2番目を使用
+  ansible_host: user_ip_address[0] if inventory_hostname.startswith('fumidai.') else user_ip_address[1]
+```
+
+自由度が高く､色々出来るんで､便利かなーと思います｡
 
