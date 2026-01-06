@@ -55,7 +55,7 @@ API token は `SAKURA_ACCESS_TOKEN`, `SAKURA_ACCESS_TOKEN_SECRET` という環�
 
 `ansible_host` を設定したい場合｡｡例えば､踏み台サーバーの場合だけ eth0 の IP アドレスを使って､それ以外のサーバーでは eth1 の IP アドレスを使いたい､なんて場合でも compose 機能で簡単に書けます｡
 
-```
+```yaml
 plugin: tokuhirom.sacloud.sacloud
 zones:
   - tk1b
