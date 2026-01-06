@@ -3,6 +3,7 @@ title: "さくらのクラウド × Ansible: モダンなInventory Pluginで快�
 emoji: "📚"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["さくらのクラウド", "cloud"]
+publication_name: "sakura_internet"
 published: true
 ---
 
