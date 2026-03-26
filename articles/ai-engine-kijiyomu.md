@@ -4,7 +4,7 @@ emoji: "📚"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["さくらのクラウド", "AI Engine", "cloud"]
 publication_name: "sakura_internet"
-published: false
+published: true
 ---
 
 エンジニアとして技術トレンドの把握は重要です。Hacker News なり、はてなブックマークのトレンドなりを見るとよいと思うのですが、そういった情報は流量が多くて読むのが大変。あと、英語の記事はタイトルだけでも日本語になっていてほしい。どれが自分に興味ある記事なのかを選別したい。
