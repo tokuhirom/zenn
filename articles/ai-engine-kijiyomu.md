@@ -13,7 +13,7 @@ published: false
 
 そういうときに使えるアプリを作ってみました。
 
-![alt text](kijiyomu.png)
+![alt text](/images/kijiyomu.png)
 
 ## どう作ったのか
 
