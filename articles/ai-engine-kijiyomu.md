@@ -15,6 +15,8 @@ published: true
 
 ![alt text](/images/kijiyomu.png)
 
+https://tokuhirom.github.io/kijiyomu/
+
 ## どう作ったのか
 
 さくらインターネットでは AI Engine というプロダクトで、OpenAI 互換の chat completion API を提供しています。
@@ -96,3 +98,7 @@ feeds:
 https://tokuhirom.github.io/kijiyomu/
 
 OpenAI の API は [go-openai](https://github.com/sashabaranov/go-openai) を利用していています。
+
+ソースコードは https://github.com/tokuhirom/kijiyomu にあります。
+
+
