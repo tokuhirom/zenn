@@ -48,12 +48,32 @@
 
 ## 外部リンク
 
-- リリースページや GitHub リポジトリへのリンクは、Markdown のリンク記法ではなく **URL を bare で 1 行に貼る** と Zenn が自動でカード化する
-- 例:
-  ```
-  https://github.com/sacloud/terraform-provider-sakura/releases/tag/v3.1.0
-  ```
-- 文中で軽く触れる場合は通常の Markdown リンク `[v3 リリース](URL)` を使ってよい
+**インラインを優先**。文中の自然な単語にリンクを張る形が基本:
+
+```
+[v3.8.0](https://github.com/sacloud/terraform-provider-sakura/releases/tag/v3.8.0) で〜が追加されました。
+[Service Endpoint Gateway 対応](https://github.com/sacloud/.../releases/tag/v3.9.0) も入っています。
+```
+
+**bare URL (Zenn のカード化)** は、1 セクションあたり 1 個までに抑える:
+
+- 「このセクションで一番伝えたいリリース」もしくはリポジトリトップを 1 本だけ
+- bare URL を 3 本も 4 本も連続で並べるのは見た目がうるさいので避ける
+
+例 (悪い):
+```
+https://github.com/sacloud/foo/releases/tag/v1
+https://github.com/sacloud/foo/releases/tag/v2
+https://github.com/sacloud/foo/releases/tag/v3
+```
+
+例 (良い):
+```
+今月は [v1](URL)、[v2](URL)、[v3](URL) と 3 本のリリースがありました。
+代表として最新の v3 を置いておきます。
+
+https://github.com/sacloud/foo/releases/tag/v3
+```
 
 ## frontmatter
 
