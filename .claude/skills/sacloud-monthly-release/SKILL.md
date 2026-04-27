@@ -117,21 +117,23 @@ published: false
 
 書き方の指針:
 
-- 前半に「sacloud OSS YYYY年M月まとめ」、`─` (全角ダッシュ) で区切ったあとに今月の目玉を 1〜3 個並べる
+- 前半に「sacloud OSS YYYY年M月」、`─` (全角ダッシュ) で区切ったあとに今月の目玉を 1〜3 個並べる
 - ハイライトは **読者が「お、これは知っておきたい」と思うもの** を選ぶ:
   - 新プロダクトへの Terraform / SDK 対応
   - 主要 API のメジャーアップデート (SCIM 対応、認証系の刷新など、実務インパクトの大きいもの)
   - 破壊的変更 (アップデート時に注意すべきもの)
-- 全長は 60〜80 文字を目安に。長すぎると Zenn / SNS 上で省略される
+- **全長は 70 文字以内**。Zenn の制約 (タイトル最大 70 文字) があるので超えると保存に失敗する。書き上げたら必ず文字数をカウント (`echo -n "$title" | awk '{print length}'`) して確認する
 - 動詞は短く: 「対応」「追加」「リリース」「公開」など
+- プロダクト名は **公式略称があれば使う** (例: Service Endpoint Gateway → SEG、Service Endpoint Gateway API ライブラリは略さない)
 
 例:
-- `sacloud OSS 2026年4月まとめ ─ Service Endpoint Gateway / AppRun 専有型が Terraform 対応、IAM に SCIM API 追加`
-- `sacloud OSS 2026年5月まとめ ─ usacloud v2 リリース、モニタリングスイートに新メトリクス`
+- `sacloud OSS 2026年4月 ─ SEG / AppRun 専有型が Terraform 対応、IAM に SCIM 追加` (66 文字)
+- `sacloud OSS 2026年5月 ─ usacloud v2 リリース、モニタリングスイートに新メトリクス`
 
 避けるパターン:
 - `sacloud OSS 2026年4月のリリースまとめ` (素っ気ない)
 - `【保存版】sacloud 完全ガイド` (煽り系・著者の作風と合わない)
+- 70 文字を超えるもの (Zenn が拒否する)
 
 ### 本文の構成
 
