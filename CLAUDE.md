@@ -46,3 +46,7 @@ Books use `config.yaml` instead (see existing books for the schema). Flip `publi
 - Drafts (`published: false`) are safe to commit; they won't appear publicly.
 - Slugs (filenames) are part of the public URL once published — don't rename after publishing.
 - When adding images, place them under `images/` and link with absolute paths from the repo root.
+
+## Naming conventions
+
+- sacloud OSS monthly release articles: `articles/sacloud-oss-YYYY-MM.md` (e.g. `sacloud-oss-2026-05.md`). Use the `sacloud-monthly-release` skill to generate these.
