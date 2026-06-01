@@ -47,6 +47,6 @@ https://github.com/sacloud/terraform-provider-sakura/releases/tag/v3.11.0
 
 ## おわりに
 
-2026 年 5 月の sacloud OSS は、`terraform-provider-sakura` でのリソース移植が引き続き進んでいます。ウェブアクセラレータと CDROM が v3 で使えるようになったことで、v2 との機能差はだいぶ縮まってきています。
+2026 年 5 月の sacloud OSS は、`terraform-provider-sakura` でのリソース移植が一段落した月でした。ウェブアクセラレータと CDROM の追加で、移植する予定のあるリソースはひととおり v3 に揃った形です。v2 にしかないリソースが多少残っていますが、そちらは当面移植の予定はない見込みです。
 
 気になるものがあれば、ぜひ各リポジトリの Releases を見てみてください。sacloud OSS は GitHub で開発しているので、フィードバックや issue は歓迎です。
