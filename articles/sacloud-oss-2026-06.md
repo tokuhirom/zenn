@@ -4,7 +4,7 @@ emoji: "📚"
 type: "tech"
 topics: ["さくらのクラウド", "OSS", "terraform", "cli"]
 publication_name: "sakura_internet"
-published: false
+published: true
 ---
 
 sacloud の OSS 群、毎月活発に開発されておりまして、各リポジトリの Releases を全部追いかけるのは結構大変です。
