@@ -84,7 +84,7 @@ https://github.com/sacloud/sacloud-otel-collector/releases/tag/v0.7.6
 
 ### API ライブラリ群
 
-- `service-endpoint-gateway-api-go` [v0.2.0](https://github.com/sacloud/service-endpoint-gateway-api-go/releases/tag/v0.2.0) で、DNS プライベートホストゾーンが無効なときにサーバーから短い応答が返るケースに対応しました。これまでこのレスポンスをうまく扱えなかったのを修正したものです。
+- `service-endpoint-gateway-api-go` [v0.2.0](https://github.com/sacloud/service-endpoint-gateway-api-go/releases/tag/v0.2.0) で、DNS 転送設定 (`DNSForwardingSettings`) が一部のフィールドを欠いた状態で返ってくるケースに対応しました。DNS プライベートホストゾーンが無効なとき、サーバーは `Enabled` だけといった省略された形のレスポンスを返すことがあり、これをうまくパースできず失敗していたのを修正したものです。
 - `monitoring-suite-api-go` [v0.2.2](https://github.com/sacloud/monitoring-suite-api-go/releases/tag/v0.2.2) で、`log_measure_rule` の OpenAPI discriminator まわりの不具合を修正しました。
 
 ## おわりに
