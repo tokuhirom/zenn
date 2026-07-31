@@ -15,7 +15,7 @@ published: false
 
 <!-- リード文: 月次まとめである旨をやさしい口調で 3-5 行 -->
 
-sacloud の OSS 群、毎月地味に動いているのですが、各リポジトリの Releases を全部追いかけるのは結構大変です。
+sacloud の OSS 群、毎月あちこちで活発に開発が進んでいるのですが、各リポジトリの Releases を全部追いかけるのは結構大変です。
 
 ということで、YYYY 年 M 月のリリースから主要なものをまとめてみました。`terraform-provider-sakura` と `terraform-provider-sakuracloud`、`usacloud` を中心に、その他の OSS にも触れていきます。
 
